@@ -18,7 +18,7 @@ public class Main extends LinearOpMode {
     public void runOpMode() {
 
         featureList = new ArrayList<>();
-        featureList.add(new MotorDrive());
+//        featureList.add(new MotorDrive());
         featureList.add(new LimeLight());
         for (MotorFeature feature: featureList){
             feature.init(hardwareMap);

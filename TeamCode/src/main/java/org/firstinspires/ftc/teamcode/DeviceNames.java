@@ -1,10 +1,10 @@
 package org.firstinspires.ftc.teamcode;
 
 public enum DeviceNames {
-    LF_MOTOR("left_front_drive"),
-    LB_MOTOR("left_back_drive"),
-    RF_MOTOR("right_front_drive"),
-    RB_MOTOR("right_back_drive"),
+    LF_MOTOR("leftBack"),
+    LB_MOTOR("leftFront"),
+    RF_MOTOR("rightFront"),
+    RB_MOTOR("rightBack"),
     ARM("arm"),
     SEC_ARM("secondArm"),
     SLIDE("slide"),
